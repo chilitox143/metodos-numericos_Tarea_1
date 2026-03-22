@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{TP1}
+\author{Edgar Israel Vargas Arce}
+\date{March 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+Punto de edgar:
+\textbf{1) [6 puntos]} Como primer paso para solucionar el problema, se desea saber la relación entre la altura del agua en el tanque y el volumen almacenado. Si se desprecia el volumen de agua en el indicador, verifique que el volumen de líquido almacenado está dado por:
+
+\begin{equation}
+V = \frac{\pi h^2 (3R - h)}{3}
+\end{equation}
+
+\textbf{Donde:}
+\begin{itemize}
+\item $V$ = volumen de agua en el tanque ($m^3$)
+\item $h$ = profundidad del agua en el tanque (m)
+\item $R$ = radio del tanque (m)
+\end{itemize}
+
+\section{Demostración}
+
+Se desea determinar una expresión para el volumen de líquido contenido en un tanque esférico de radio $R$, en función de la altura $h$ medida desde la base del tanque. Para ello, se emplea el método de integración utilizando secciones transversales.
+
+Se considera una esfera de radio $R$, centrada en el origen, cuya ecuación es:
+
+\begin{equation}
+x^2 + y^2 = R^2
+\end{equation}
+
+Despejando:
+
+\begin{equation}
+x = \sqrt{R^2 - y^2}
+\end{equation}
+
+El área de cada sección transversal es:
+
+\begin{equation}
+A(y) = \pi (R^2 - y^2)
+\end{equation}
+
+El volumen se obtiene integrando desde $y = -R$ hasta $y = h - R$:
+
+\begin{equation}
+V = \int_{-R}^{h-R} \pi (R^2 - y^2)\,dy
+\end{equation}
+
+Resolviendo:
+
+\begin{equation}
+V = \pi \int_{-R}^{h-R} (R^2 - y^2)\,dy
+\end{equation}
+
+\begin{equation}
+V = \pi \left[ R^2 y - \frac{y^3}{3} \right]_{-R}^{h-R}
+\end{equation}
+
+Luego de simplificar:
+
+\begin{equation}
+V = \frac{\pi h^2 (3R - h)}{3}
+\end{equation}
+
+
+
+\end{document}
