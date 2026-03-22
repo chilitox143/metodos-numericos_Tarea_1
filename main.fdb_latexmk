@@ -1,10 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1774200204.02201 "c:/Users/edisr/OneDrive - Estudiantes ITCR/Documents/TEC/5. Quinto semestre/Metodos numericos/metodos-numericos_Tarea_1/main.tex" "main.pdf" "main" 1774200204.37268 0
+["pdflatex"] 1774200461.86775 "c:/Users/edisr/OneDrive - Estudiantes ITCR/Documents/TEC/5. Quinto semestre/Metodos numericos/metodos-numericos_Tarea_1/main.tex" "main.pdf" "main" 1774200462.21226 0
   "C:/Users/edisr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1774199000 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/edisr/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1774199322 11548 74128cd4e9eba18d65692eaf765a73bb ""
   "C:/Users/edisr/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1774199185 13333849 1d5c0eba755131168bbe418dfe2e8621 ""
   "C:/Users/edisr/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
-  "C:/Users/edisr/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Users/edisr/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Users/edisr/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
   "C:/Users/edisr/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi6.tfm" 1136765053 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -16,7 +15,6 @@
   "C:/Users/edisr/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
   "C:/Users/edisr/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/edisr/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
-  "C:/Users/edisr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247596666 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "C:/Users/edisr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/edisr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/edisr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
@@ -39,9 +37,9 @@
   "C:/Users/edisr/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1749322634 2671 d9941f4bf4750e9b0603c9a2ec54693b ""
   "C:/Users/edisr/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty" 1749322634 4023 e66acf578d6b564c4670fb57ff336a7a ""
   "C:/Users/edisr/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1761202581 30662 bfd6e864f4ffc5018b0e2b6260c3181c ""
-  "c:/Users/edisr/OneDrive - Estudiantes ITCR/Documents/TEC/5. Quinto semestre/Metodos numericos/metodos-numericos_Tarea_1/main.tex" 1774200201 1807 7d65332e723b78427f49db961f313aaf ""
-  "main.aux" 1774200204 233 c4f5cf487dfbe49005f9ab56e362352a "pdflatex"
-  "main.tex" 1774200201 1807 7d65332e723b78427f49db961f313aaf ""
+  "c:/Users/edisr/OneDrive - Estudiantes ITCR/Documents/TEC/5. Quinto semestre/Metodos numericos/metodos-numericos_Tarea_1/main.tex" 1774200461 2091 6bddf47c9e7e56306b3864d991405bd2 ""
+  "main.aux" 1774200462 233 c4f5cf487dfbe49005f9ab56e362352a "pdflatex"
+  "main.tex" 1774200461 2091 6bddf47c9e7e56306b3864d991405bd2 ""
   (generated)
   "main.aux"
   "main.log"

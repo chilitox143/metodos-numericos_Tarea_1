@@ -11,59 +11,61 @@
 
 \section{Introduction}
 
-Punto de edgar:
-\textbf{1) [6 puntos]} Como primer paso para solucionar el problema, se desea saber la relación entre la altura del agua en el tanque y el volumen almacenado. Si se desprecia el volumen de agua en el indicador, verifique que el volumen de líquido almacenado está dado por:
-
-\begin{equation}
-V = \frac{\pi h^2 (3R - h)}{3}
-\end{equation}
-
-\textbf{Donde:}
-\begin{itemize}
-\item $V$ = volumen de agua en el tanque ($m^3$)
-\item $h$ = profundidad del agua en el tanque (m)
-\item $R$ = radio del tanque (m)
-\end{itemize}
-
 \section{Demostración}
 
-Se desea determinar una expresión para el volumen de líquido contenido en un tanque esférico de radio $R$, en función de la altura $h$ medida desde la base del tanque. Para ello, se emplea el método de integración utilizando secciones transversales.
+Se desea determinar una expresión para el volumen de líquido contenido en un tanque esférico de radio $R$, en función de la altura $h$ medida desde la base del tanque. Para ello, se emplea el método de integración utilizando secciones transversales (discos).
 
-Se considera una esfera de radio $R$, centrada en el origen, cuya ecuación es:
+Se considera una esfera de radio $R$, centrada en el origen de un sistema de coordenadas. Por lo tanto, la esfera se extiende desde $y = -R$ hasta $y = R$. Su ecuación es:
 
 \begin{equation}
 x^2 + y^2 = R^2
 \end{equation}
 
-Despejando:
+Despejando $x$, se obtiene el radio de cada sección transversal en función de $y$:
 
 \begin{equation}
 x = \sqrt{R^2 - y^2}
 \end{equation}
 
-El área de cada sección transversal es:
+Cada corte horizontal de la esfera genera un disco de radio $x$ y, por tanto, de área:
 
 \begin{equation}
-A(y) = \pi (R^2 - y^2)
+A(y) = \pi x^2 = \pi (R^2 - y^2)
 \end{equation}
 
-El volumen se obtiene integrando desde $y = -R$ hasta $y = h - R$:
+Para calcular el volumen del líquido, se integran estas áreas desde la base del tanque hasta la altura del líquido.
+
+Dado que el origen está en el centro de la esfera:
+\begin{itemize}
+\item La base del tanque corresponde a $y = -R$
+\item La superficie del líquido corresponde a $y = h - R$
+\end{itemize}
+
+Esto se debe a que la altura $h$ se mide desde la base, por lo que al trasladarla al sistema centrado en el origen, se debe restar $R$.
+
+Por lo tanto, los límites de integración son:
 
 \begin{equation}
 V = \int_{-R}^{h-R} \pi (R^2 - y^2)\,dy
 \end{equation}
 
-Resolviendo:
+Resolviendo la integral:
 
 \begin{equation}
 V = \pi \int_{-R}^{h-R} (R^2 - y^2)\,dy
 \end{equation}
 
 \begin{equation}
+\int (R^2 - y^2)\,dy = R^2 y - \frac{y^3}{3}
+\end{equation}
+
+Evaluando en los límites:
+
+\begin{equation}
 V = \pi \left[ R^2 y - \frac{y^3}{3} \right]_{-R}^{h-R}
 \end{equation}
 
-Luego de simplificar:
+Finalmente, al simplificar la expresión anterior, se obtiene:
 
 \begin{equation}
 V = \frac{\pi h^2 (3R - h)}{3}
